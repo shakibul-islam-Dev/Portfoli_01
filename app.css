@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -25,6 +26,21 @@
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}.section-heading h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
 }
 
 
@@ -93,4 +109,32 @@ nav .menu a{
     max-width: 585px;
     vertical-align: middle;
 
+}
+/* #about-section .about-continer .section-heading .about-info */
+#about-section{
+    padding:130px 230px ;
+}
+#about-section .about-continer{
+    width: 71%;
+    margin: 0 auto;
+    max-width: 1140px;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about-section .about-continer .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+#about-section .about-continer .about-info p{
+    font-size: 20px;
+    color: #181818;
+    line-height: 30px;
+    color: #757575;
+}
+#about-section .about-continer .about-info h4{
+    font-size: 20px;
+    color: #181818;
+    line-height: 30px;
+    color: #757575;
 }
