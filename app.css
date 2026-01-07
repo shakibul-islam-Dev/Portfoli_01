@@ -9,6 +9,9 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+.text-center{
+    text-align: center;
+}
 /*shared style*/
 .logo h2{
     font-size: 45px;
@@ -113,9 +116,11 @@ nav .menu a{
 
 }
 /* #about-section .about-continer .section-heading .about-info */
-#about-section{
-    padding:130px 230px ;
+#about-section,#skills,#resume{
+    padding-top: 130px;
+    /* margin: 0 auto; */
 }
+
 #about-section .about-continer{
     width: 71%;
     margin: 0 auto;
@@ -140,10 +145,7 @@ nav .menu a{
     line-height: 30px;
     color: #757575;
 }
-#skills{
-    padding-top: 130px;
-    margin: 0 auto;
-}
+
  #skills .skills-container{
     width: 71%;
     max-width: 1140PX;
@@ -172,4 +174,50 @@ nav .menu a{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+#resume .resume-continer{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-continer .section-title{
+    font-size:35px ;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-continer .card-title{
+    font-size:25px ;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-continer .card-info{
+    font-size:20px ;
+    font-weight: bold;
+    color: #757575;
+}
+.resume-continer .card-text{
+    max-width: 511px;
+    height: 84px;
+    font-size:16px ;
+    line-height: 28px;
+    font-weight: 400px;
+    color: #757575;
+}
+.resume-continer .education .education-section{
+    max-width: 511px;
+    max-height: 175px;
+}
+.education hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+    opacity: 50%;
+    width: 558px;
+}
+.education .education-section .card-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
